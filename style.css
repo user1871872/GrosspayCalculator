@@ -1,0 +1,37 @@
+form{
+	font-family: sans-serif;
+	font-size: 13px;
+	width: auto;
+	height: auto;
+	margin:auto;
+	background-color: #16B7D5;
+	color: white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+body{
+	background-image: url(https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/241772239_1600391880164212_3562193216408100095_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeF9TQBjqA09n4AzsvtNk6h621Z0RZX1aNfbVnRFlfVo17cCKWP_bA_88a3qo-g3Jz1mX4qbq5vvIEYEuZ-sT6LG&_nc_ohc=PB1xFVTeMuYAX9vuLHh&_nc_ht=scontent.fceb2-2.fna&oh=00_AT9ZnecVJa4C6ZSJwDfuraUp8ywbIe5SG0LgITewcVbVNg&oe=61BCD24F);
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-attachment:fixed;
+	background-position: 48%;
+	background-color: #C5BFBF;
+}
+label{
+	width: 100px;
+	padding: 5px;
+	display:inline-block;
+}
+.index-1 input{
+	padding: 3px;
+	width: 50px;
+}
+.button{
+	text-align: right;
+	padding: 3px;
+	display:inline-block;
+	width:280px;
+	margin:auto;
+}

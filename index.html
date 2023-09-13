@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<form name="frm">
+<title>UNIVERSITY OF BOHOL</title>
+ <div>
+<label>Employee</label>
+ <input type="text" name="Employee" placeholder="Enter your name">
+</div>
+<div>
+ <label>ID</label>
+ <input type="text" name="ID" placeholder="Enter your ID">
+ </div>
+ <div>
+ <h4 class="rotp">REGULAR & OVERTIME PAY</h4>
+ <div class="index-1">
+ <div>
+<label>Rate Per Hour</label>
+ <input type="number" id="n1" name="rate" required>
+ </div>
+ <div>
+<label>Hours Work</label>
+<input type="number" max="96" id="n2" name="hours" required>
+</div>
+ <div>
+<label>Basic Pay</label>
+<input type="text" id="result" name="bpay"readonly>
+</div>
+ <div>
+<label>Overtime</label>
+<input type="text" id="n4" name="Overtime" required>
+</div>
+ <div>
+<label>Over Time Pay</label>
+<input type="text" id="n5" name="Otp" readonly>
+</div>
+ <div>
+<label>Gross Pay</label>
+<input type="text" id="n6" name="gpay" readonly>
+</div>
+<h4><label>DEDUCTION</label></h4>
+ <div>
+<label>SSS</label>
+<input type="text" id="tax" name="sss"readonly>
+</div>
+ <div>
+<label>Phil Health</label>
+<input type="text" id="ph"name="phealth"readonly>
+</div>
+ <div>
+<label>Witholding Tax</label>
+<input type="text" id="wh" name="Tax"readonly>
+</div>
+ <div>
+<label>Total Deduction</label>
+<input type="text" id="Tdec" name="Total" readonly>
+</div>
+ <div> 	
+<label>Net Pay</label>
+<input type="text" name="Npay"readonly>
+</div>
+<div class = "button">
+<input type="button" name="clickbtn" value="Ok"onclick="Compute()">
+<input type="reset" name="reset" value="Clear"onclick="compute()">
+</div>
+   <script src="script.js"></script>
+</form>
+</html>
